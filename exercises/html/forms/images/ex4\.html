@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exercise #4: Subscribtion form</title>
+  <title>Exercise #4: Subscribtion form</title>
+  <style type="text/css">
+  	
+  	label{
+  		display: inline-block;
+		text-align: right;
+		float: left;
+  	}
+
+  	/*.input{
+		float: right;
+		text-align: right;
+  	}*/
+  </style>
 </head>
 <body>
-	<div  style="width: 50%; margin: auto;">
+  <div  style="width: 40%; margin: auto;">
 
-	<form >
-		 <fieldset style="background-color: #BAEDED">
+    <form >
+	  <fieldset style="background-color:#BAEDED">
   			
-		  <legend>Personal details </legend>
-		  First Name<input type="text"><br>
-		  Last Name<input type="text"><br>
-		  Email<input type="email"><br>
-		  Gender:<input type="radio" name="gender"> Male
+	    <legend>Personal details </legend>
+		<div style="width: 90%; margin: auto;">
+		  <label >First Name</label>
+		  <input class="input" style="" type="text"><br>
+		  <label>Last Name</label>
+		  <input class="input" type="text"><br>
+		  <label>Email address</label>
+		  <input class="input" type="text" type="email"><br>
+
+		  Gender:<input style="display: inline;" align="center" type="radio" name="gender"> Male
 		  <input type="radio" name="gender"> Female
-		 
-		</fieldset>
+		</div>
+	  </fieldset>
 
-		<fieldset style="background-color: #BAEDED">
+	  <fieldset style="background-color: #BAEDED">
 
-		  <legend>Magazines </legend>
-		  <input type="checkbox">Stavanger Aftenblad<br>
-		  <input type="checkbox">Teknisk Ukeblad<br>
-		  <input type="checkbox">Se og Hor<br>
-		  <input type="checkbox">Familien
+	    <legend>Magazines </legend>
+		<input type="checkbox">Stavanger Aftenblad<br>
+		<input type="checkbox">Teknisk Ukeblad<br>
+		<input type="checkbox">Se og Hor<br>
+		<input type="checkbox">Familien
 
 		</fieldset>
 
 		<fieldset style="background-color: #BAEDED">
 		  <legend>Subscription</legend>
-
-		  <p style="display: inline;">Period:</p>
-		  <select>
-			<option>6 monthes</option>
-			<option>12 monthes</option>
-			<option>18 monthes</option>
-			<option>24 monthes</option>
-		  </select>
-
+		  <div style="text-align: center;">
+		  	
+		    <p style="display: inline;">Period:</p>
+		    <select>
+			  <option>6 monthes</option>
+			  <option>12 monthes</option>
+			  <option>18 monthes</option>
+			  <option>24 monthes</option>
+		    </select>
+		  </div>
 		</fieldset>
-		
-		  <button style="display: block;" type="Subscription">Subscribe</button>
+		  <br>
+		  <button style="display: block; margin: auto;" type="Subscription">Subscribe</button>
       </div>
 	</form>
 
