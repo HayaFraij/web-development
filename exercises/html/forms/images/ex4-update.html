@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise #4: Subscribtion form</title>
+
+	<style type="text/css">
+		.background{
+			background-color: #8AABAB;
+			border: 2px solid #044141;
+		}
+
+		.labels{
+			float: right;
+			margin-left: 20px;
+		}
+		.inputs{
+			float: right;
+			margin-right: 30px;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div style="width: 40%; margin: auto;">
+	<form>
+
+		<div style="position: relative;">
+		 <fieldset class="background">
+		  <legend>Personal details </legend>
+		  <div style="position: absolute;">
+		  	<label class="labels">First Name</label><br>
+		  	<label class="labels">Last Name</label><br>
+		  	<label class="labels">Email Adress </label><br>
+		  	<label class="labels">Gender:</label><br>
+		  </div>
+		  <div style="position: absolute; left: 90px;"></div>
+		  <input class="inputs" type="text"><br>
+		  <input class="inputs" type="text"><br>
+		  <input class="inputs" type="email"><br><br>
+		  <!-- <input type="radio" name="gender"><p style="display: inline;"> Male</p> -->
+		  <!-- <input type="radio" name="gender"><p style="display: inline;"> Female</p>  -->
+		  
+		  <div style="float: right;margin-right: 50px" style="display: inline;">
+		  <input type="radio" name="gender">Male
+		  <input type="radio" name="gender">Female
+		  </div>
+		</fieldset>
+		</div>
+
+		<fieldset class="background">
+		  <legend>Magazines </legend>
+		  <input type="checkbox">Stavanger Aftenblad<br>
+		  <input type="checkbox">Teknisk Ukeblad<br>
+		  <input type="checkbox">Se og Hor<br>
+		  <input type="checkbox">Familien
+		</fieldset>
+
+		<fieldset class="background">
+		  <legend>Subscription</legend>
+		  <div style="text-align: center;">
+		  <p style="display: inline;">Period:</p>
+		  <select>
+			<option>6 monthes</option>
+			<option>12 monthes</option>
+			<option>18 monthes</option>
+			<option>24 monthes</option>
+		  </select>
+		</div>
+		</fieldset>
+		<br>
+		  <button style="margin: auto; display: block;" type="Subscription">Subscribe</button>
+
+	</form>
+	</div>
+</body>
+</html>
