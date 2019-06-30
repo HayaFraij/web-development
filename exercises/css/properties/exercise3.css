@@ -1,0 +1,19 @@
+p{
+	display: inline;
+
+}
+
+.blue{
+	color: blue;
+	font-family: Consolas, Menlo, Monaco, Courier New, monospace;
+}
+
+.green{
+	color: green;
+	font-family: Consolas, Menlo, Monaco, Courier New, monospace;
+}
+
+pre{
+	font-weight: bold;
+
+}
