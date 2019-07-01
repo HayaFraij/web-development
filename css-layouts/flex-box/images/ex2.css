@@ -1,0 +1,29 @@
+body{
+	background-color: #B6E3F0;
+}
+.main{
+	margin: auto;
+	width: 70%;
+	background-color: #026C8C;
+	padding: 50px;
+	text-align: center;
+}
+.pagination{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding: 10px;
+
+}
+
+a {
+
+	color: #FFFFFF;
+	padding: 7px;
+	border: solid 0.3px white;
+	/*margin: 1px;*/
+	padding: 4px 7px 4px 7px;
+	background-color: #529EB4;
+	box-shadow: 2px 2px 4px #000000;
+
+}

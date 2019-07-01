@@ -1,0 +1,22 @@
+.main{
+	display: flex;
+	/*position: 1fr 1fr 1fr;*/
+	/*columns: 1fr 1fr 1fr 1fr;*/
+}
+
+.div{
+	padding: 200px;
+}
+
+#div1{
+	background-color: green;
+}
+#div2{
+	background-color: blue;
+}
+#div3{
+	background-color: yellow;
+}
+#div4{
+	background-color: red;
+}
