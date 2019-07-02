@@ -1,11 +1,14 @@
 .main{
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #BBF1CC;
 	/*grid-template-rows: */
 }
 .div{
-	background-color: blue;
+	background-color: #4B7257;
+	color: white;
+	padding: 10px;
 }
 #div1{
 	grid-row: 1/3;
